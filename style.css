@@ -1,0 +1,65 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background-color: rgb(165, 196, 216);
+}
+
+h1{
+  font-size: 35px;
+}
+
+#corpo-lista{
+  border: 1px solid black;
+  margin-top: 15px;
+  border-radius: 15px;
+  height: 400px;
+}
+
+#entrada{
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#botao-adicionar{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#botao-adicionar:hover{
+  background-color: rgb(95, 110, 121);
+  scale: 110%;
+}
+
+#linha{
+  border: 1px dashed black;
+  width: 25%;
+}
+
+button{
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(95, 110, 121);
+  scale: 110%;
+}
+
+.mudar{
+  color: red;
+}
+
+li{
+  transition: .2s;
+}
