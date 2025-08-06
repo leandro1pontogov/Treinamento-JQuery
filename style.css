@@ -63,3 +63,23 @@ button:hover{
 li{
   transition: .2s;
 }
+
+#sumir{
+  background-color: white;
+  width: 10px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-left: 43%;
+  cursor: pointer;
+}
+
+#pesquisa{
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#pesquisarTxt{
+  margin-left: 5%;
+}
